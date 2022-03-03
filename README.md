@@ -14,3 +14,11 @@ One way to do this is to script the Matlab code with the electrode voltage as a 
 <img src=https://github.com/loganRidings/Electrostatic-Optics/blob/main/sampleBeam.png alt="Beam Traces" width="400"/>  
 <img src=https://github.com/loganRidings/Electrostatic-Optics/blob/main/currentDensityPlot.png alt="Beam Traces" width="400"/>
 </p>
+
+####  Required Matlab Add-ons
+Parallel and Distributed Computing Toolbox (optional)   
+Parial Differential Equation Toolbox (required)
+
+####  Running without Parallel Toolbox
+Just change the `parfor` to a `for` loop.
+I built it to easily switch back and forth, however, the runtime is at least 4x for sequential ODE solving...
