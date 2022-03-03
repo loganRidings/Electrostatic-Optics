@@ -10,3 +10,7 @@ The lens can function in accel- or decel- mode by controlling the sign of the po
 ### Sample Application
 Find the voltages which cause crossovers in the beam at certain distances from the lens element and find the closest crossover in accel- mode without exceeding breakdown voltage of the elements.   
 One way to do this is to script the Matlab code with the electrode voltage as a parameter and find crossover points and density functions to determine the current through an 'x' size virtual aperture located at the right edge of the domain.
+<p align="center">
+<img src=https://github.com/loganRidings/Electrostatic-Optics/blob/main/sampleBeam.png alt="Beam Traces" width="400"/>  
+<img src=https://github.com/loganRidings/Electrostatic-Optics/blob/main/currentDensityPlot.png alt="Beam Traces" width="400"/>
+</p>
